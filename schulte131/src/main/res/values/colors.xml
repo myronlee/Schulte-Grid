@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="num">#90EEEEEE</color>
+    <color name="button_bg">#90333333</color>
+    <color name="button_bg_pressed">#00ffffff</color>
+    <color name="next_num">#90777777</color>
+    <color name="dialog_time">#e6e6de</color>
+    <color name="dialog_record">#777777</color>
+    <color name="dialog_bg">#ff2b2b2b</color>
+    <color name="dialog_btn_text">#2d3132</color>
+    <color name="dialog_btn_bg">#e6e6de</color>
+    <color name="dialog_btn_bg_pressed">#0033b5e5</color>
+    <color name="dialog_btn_return_text">#FFFFFF</color>
+    <color name="dialog_btn_return_bg">#777777</color>
+    <color name="dialog_btn_return_bg_pressed">#0033b5e5</color>
+</resources>

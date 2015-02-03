@@ -1,0 +1,4 @@
+/Users/ligang/AndroidStudioProjects/Schulte 1.3.1/schulte131/build/intermediates/classes/debug
+/Users/ligang/AndroidStudioProjects/Schulte 1.3.1/schulte131/build/intermediates/pre-dexed/debug/classes-0bc2a1646ed0a5910b5c56723a3f12c7b9d92b37.jar
+/Users/ligang/AndroidStudioProjects/Schulte 1.3.1/schulte131/build/intermediates/pre-dexed/debug/weibosdkcore-522532e9cbfd03bebb4dd0be5ddc90513bd3e266.jar
+/Users/ligang/AndroidStudioProjects/Schulte 1.3.1/schulte131/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b8ba20a7aabbd679a9a553be36f51001a66f5ad0.jar

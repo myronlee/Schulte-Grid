@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_finish"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_info" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dialog_time"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/dialog_record"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_return"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/dialog_btn_return_bg_selector"
+            android:text="@string/btn_return"
+            android:textColor="@color/dialog_btn_return_text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_restart"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/dialog_btn_bg_selector"
+            android:text="@string/btn_restart"
+            android:textColor="@color/dialog_btn_text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

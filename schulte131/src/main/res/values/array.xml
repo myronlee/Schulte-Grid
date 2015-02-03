@@ -1,0 +1,16 @@
+<resources>
+
+    <string-array name="scale_entry">
+        <item>2×2</item>
+        <item>3×3</item>
+        <item>4×4</item>
+        <item>5×5</item>
+    </string-array>
+    <string-array name="scale_value">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

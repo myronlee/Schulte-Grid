@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="\0" >
+    <PreferenceCategory android:title="用户" >
+        <PreferenceScreen
+            android:key="user"
+            android:title="未登录" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.diandian.CoolCo.schulte.WBLoginLogoutActivity"
+                android:targetPackage="com.diandian.CoolCo.schulte" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="设置" >
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/scale_entry"
+            android:entryValues="@array/scale_value"
+            android:key="scale"
+            android:negativeButtonText="取消"
+            android:summary="方格行列数目"
+            android:title="维数" />
+
+        <CheckBoxPreference android:defaultValue="true" android:key="tick" android:summaryOff="游戏直接开始" android:summaryOn="游戏开始前倒数3秒钟" android:title="倒数3秒钟" /><CheckBoxPreference
+            android:defaultValue="true"
+            android:key="disappear"
+            android:shouldDisableView="true"
+            android:summaryOff="点击数字不隐藏"
+            android:summaryOn="点击数字隐藏"
+            android:title="隐藏" />
+        <CheckBoxPreference android:key="promt" android:title="提示" android:summaryOn="按错数字时背景上提示正确数字" android:defaultValue="true" android:summaryOff="无提示"/><CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibrate"
+            android:summaryOff="点击数字不震动"
+            android:summaryOn="点击数字震动"
+            android:title="震动" />
+        
+        <CheckBoxPreference android:key="sound" android:title="音效" android:defaultValue="true" android:summaryOn="点击数字时有提示音" android:summaryOff="点击数字时无提示音"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于" >
+        <PreferenceScreen
+            android:summary="舒尔特表是一种简单科学的注意力训练方法。"
+            android:title="关于游戏" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
